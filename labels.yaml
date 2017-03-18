@@ -1,0 +1,10 @@
+---
+version: "3"
+services:
+  web:
+    image: web
+    labels:
+      container.description: "Label for container of web services"
+    deploy:
+      labels:
+        description: "Web services label"
